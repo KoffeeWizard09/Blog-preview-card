@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    background: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    
+}
+
+.card {
+    max-width: 335px;
+    height: auto;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 0.5rem 0.5rem 0 hsl(0, 0%, 7%);
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.tag {
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: 800;
+    background: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.date {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.desc {
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-weight: 800;
+    margin-left: 10px;
+    font-size: .8rem;
+}
+
+.author img {
+    max-width: 30px;
+    height: auto;
+    border-radius: 9999%;
+}
